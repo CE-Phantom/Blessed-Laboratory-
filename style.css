@@ -698,7 +698,62 @@ width:95%;
 display:none;
 
 }
+/* MOLECULE PARTICLES */
 
+.particle{
+
+position:absolute;
+
+width:8px;
+
+height:8px;
+
+background:#00eaff;
+
+border-radius:50%;
+
+opacity:.7;
+
+box-shadow:
+0 0 20px #00eaff;
+
+animation:
+particleFloat infinite ease-in-out;
+
+}
+
+
+@keyframes particleFloat{
+
+
+0%{
+
+transform:
+translateY(0)
+scale(1);
+
+}
+
+
+50%{
+
+transform:
+translateY(-100px)
+scale(1.5);
+
+}
+
+
+100%{
+
+transform:
+translateY(0)
+scale(1);
+
+}
+
+
+}
 
 
 .hero h1{
